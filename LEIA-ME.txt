@@ -180,3 +180,6 @@ Removidas as linhas brancas repetidas do mar e do reflexo. Reflexo solar agora d
 
 NOVO LOCAL DO CAFÉ DA MANHÃ
 Tarrafas Restaurante — Orla de Atalaia, logo após os Arcos. Av. Santos Dumont, Atalaia, Aracaju – SE. Cada pessoa paga o próprio consumo.
+
+FUMAÇA AO ABRIR O PRESENTE
+Vídeo azul e rosa fornecido pelo cliente, com remoção do verde no navegador. Efeito parte da abertura da caixa e cresce suavemente, sem áudio do vídeo. Ao terminar, segue para o convite. Inclui botão para pular, tecla Escape, respeito a movimento reduzido e saída automática em caso de falha de reprodução. Os palpites continuam com fumaça apenas da cor escolhida. Envie também assets/presente.js e assets/fumaca-presente.mp4.
