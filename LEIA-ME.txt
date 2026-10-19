@@ -71,10 +71,9 @@ nova publicação automaticamente.
 
 CARTA EM PDF
 
-O PDF não está incluído nesta entrega. Depois de definir o endereço
-público definitivo, ele poderá ser colocado no botão e no QR Code
-da carta de convite. Não use o link privado de revisão para enviar
-aos convidados.
+A carta em PDF é entregue separadamente. O selo e o envelope abrem
+https://convite-gessica-luis.vercel.app/
+Envie o PDF como documento pelo WhatsApp para preservar os links.
 
 PLANO DA VERCEL
 
@@ -94,3 +93,19 @@ https://vercel.com/docs/builds/configure-a-build
 https://vercel.com/docs/project-configuration/vercel-json
 https://vercel.com/docs/cli/deploy
 https://vercel.com/docs/limits/fair-use-guidelines
+
+ATUALIZAÇÃO DA LOGO E DO PRESENTE
+
+A logo agora usa PNG com transparência real. A marca da tag do
+presente foi centralizada dentro da etiqueta com a mesma inclinação.
+
+Para atualizar o site já publicado:
+1. Extraia este ZIP novamente.
+2. Abra o repositório convite-gessica-luis no GitHub.
+3. Clique em Add file > Upload files.
+4. Arraste a pasta public desta versão para substituir os mesmos caminhos.
+   Confira que aparecem public/index.html e public/assets/...
+5. Clique em Commit changes e aguarde a publicação automática da Vercel.
+6. Atualize a página no celular. A logo e o CSS usam nova versão de cache.
+
+A carta PDF não depende desta atualização para abrir o convite.
