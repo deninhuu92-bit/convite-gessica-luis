@@ -1,6 +1,6 @@
 const gift=document.querySelector('#gift'),invite=document.querySelector('#invitation');let opened=false, selectedVote=null;const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 function goTo(id){const page=document.getElementById(id);page.hidden=false;page.classList.add('entering');page.focus({preventScroll:true});requestAnimationFrame(()=>page.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'}));}
-gift.addEventListener('click',()=>{if(opened){goTo('story');return}opened=true;gift.classList.add('open');gift.setAttribute('aria-expanded','true');document.querySelector('#hint').innerHTML='Uma nova vida. Um amor sem medida.<span aria-hidden="true">↓</span>';invite.hidden=false;if(!reduced&&window.playGiftSmoke){window.playGiftSmoke().then(()=>goTo('story'))}else{setTimeout(()=>goTo('story'),reduced?0:650)}});
+gift.addEventListener('click',()=>{if(opened){goTo('story');return}opened=true;gift.classList.add('open');gift.setAttribute('aria-expanded','true');document.querySelector('#hint').innerHTML='Uma nova vida. Um amor sem medida.<span aria-hidden="true">↓</span>';invite.hidden=false;setTimeout(()=>goTo('story'),reduced?0:650)});
 document.querySelector('#to-guess').addEventListener('click',e=>{e.currentTarget.setAttribute('aria-expanded','true');goTo('guess')});
 document.querySelector('#to-details').addEventListener('click',e=>{e.currentTarget.setAttribute('aria-expanded','true');goTo('details')});
 document.querySelector('#back-guess').addEventListener('click',()=>goTo('guess'));

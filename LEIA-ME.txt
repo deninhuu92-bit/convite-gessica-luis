@@ -48,7 +48,7 @@ O QUE ESTÁ PRONTO
 - Nome e resposta de presença enviados junto com o palpite pelo WhatsApp.
 - WhatsApp destinatário: Gessica, +55 79 9890-1959.
 - Evento: 27/10/2026, às 4h30, Orla de Atalaia — Cinelândia.
-- Aviso de pontualidade e café no Tarrafas Restaurante, consumo individual.
+- Aviso de pontualidade e café no restaurante Bença, consumo individual.
 - Adaptação para celular e respeito à preferência de movimento reduzido.
 
 CONTAGEM DE VOTOS
@@ -177,9 +177,3 @@ Camadas claras das etapas reduzidas e desfoque removido para realçar o sol, o m
 
 MAR MAIS NATURAL
 Removidas as linhas brancas repetidas do mar e do reflexo. Reflexo solar agora difuso, com transição suave de cores na água e espuma discreta na areia.
-
-NOVO LOCAL DO CAFÉ DA MANHÃ
-Tarrafas Restaurante — Orla de Atalaia, logo após os Arcos. Av. Santos Dumont, Atalaia, Aracaju – SE. Cada pessoa paga o próprio consumo.
-
-FUMAÇA AO ABRIR O PRESENTE
-Vídeo azul e rosa fornecido pelo cliente, com remoção do verde no navegador. Efeito parte da abertura da caixa e cresce suavemente, sem áudio do vídeo. Ao terminar, segue para o convite. Inclui botão para pular, tecla Escape, respeito a movimento reduzido e saída automática em caso de falha de reprodução. Os palpites continuam com fumaça apenas da cor escolhida. Envie também assets/presente.js e assets/fumaca-presente.mp4.
