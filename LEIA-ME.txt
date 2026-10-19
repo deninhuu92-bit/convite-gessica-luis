@@ -168,3 +168,6 @@ automática antes da primeira interação. Volume suave com entrada gradual.
 
 Atualize a pasta public inteira, incluindo o MP3 e ambiente.js.
 O PDF não precisa de atualização: ele continua abrindo o mesmo site.
+
+SOM AUTOMÁTICO
+O som tenta iniciar ao carregar a página. Se o navegador bloquear a reprodução automática com áudio, começa no primeiro clique ou toque no convite. A escolha de pausar continua sendo respeitada.
