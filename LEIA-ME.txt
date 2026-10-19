@@ -157,3 +157,14 @@ Os emojis são montados por código Unicode; o rosa usa o coração
 clássico. O botão usa a abertura direta api.whatsapp.com/send.
 A aparência da prévia depende do WhatsApp/navegador; confira também
 o texto dentro da conversa antes de enviar.
+
+SOM AMBIENTE DO MAR
+
+Áudio local em public/assets/brisa-mar.mp3: ondas suaves e brisa,
+em loop. Começa após o clique no presente ou Abrir meu convite.
+O botão Ativar som/Pausar som fica sempre disponível no canto inferior.
+A pausa escolhida é lembrada nesse navegador. Não há reprodução
+automática antes da primeira interação. Volume suave com entrada gradual.
+
+Atualize a pasta public inteira, incluindo o MP3 e ambiente.js.
+O PDF não precisa de atualização: ele continua abrindo o mesmo site.
