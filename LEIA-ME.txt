@@ -149,3 +149,11 @@ BOTÃO DE ABERTURA
 A primeira tela agora tem um botão visível Abrir meu convite.
 O presente e o botão abrem o mesmo convite. Para atualizar, envie
 a pasta public inteira ao mesmo repositório e confirme o commit.
+
+CORAÇÕES NO WHATSAPP
+
+A mensagem agora inclui time azul ou time rosa, além do coração.
+Os emojis são montados por código Unicode; o rosa usa o coração
+clássico. O botão usa a abertura direta api.whatsapp.com/send.
+A aparência da prévia depende do WhatsApp/navegador; confira também
+o texto dentro da conversa antes de enviar.
