@@ -35,3 +35,10 @@ rsvpForm.addEventListener('submit',e=>{
  const retry=document.createElement('a');retry.href=url;retry.target='_blank';retry.rel='noopener noreferrer';retry.textContent='Abrir WhatsApp novamente';status.append(retry);
 });
 guestName.addEventListener('input',()=>guestName.setCustomValidity(''));
+
+const openInviteButton = document.querySelector('#open-invite');
+openInviteButton.addEventListener('click', () => gift.click());
+gift.addEventListener('click', () => {
+  openInviteButton.setAttribute('aria-expanded', 'true');
+  openInviteButton.firstChild.textContent = 'Ver meu convite novamente ';
+});

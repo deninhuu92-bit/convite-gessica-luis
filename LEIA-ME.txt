@@ -143,3 +143,9 @@ Gessica e Luis fazem aniversário NO MESMO DIA. Texto corrigido.
 com estrela azul e coração rosa.
 A conexão da parcial e o WhatsApp foram preservados.
 Atualize enviando a pasta public inteira ao mesmo repositório.
+
+BOTÃO DE ABERTURA
+
+A primeira tela agora tem um botão visível Abrir meu convite.
+O presente e o botão abrem o mesmo convite. Para atualizar, envie
+a pasta public inteira ao mesmo repositório e confirme o commit.
