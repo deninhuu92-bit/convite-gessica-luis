@@ -135,3 +135,11 @@ Não execute novamente o SQL: a tabela e as funções já foram criadas.
 Verificação: conexão de leitura real com Supabase confirmada. Não foram
 criados votos de teste na parcial. Após publicar, faça seu primeiro
 palpite e abra o convite em outro aparelho para conferir o mesmo total.
+
+CORREÇÃO DE TEXTO E ÍCONES
+
+Gessica e Luis fazem aniversário NO MESMO DIA. Texto corrigido.
+Ícones de palpite substituídos por roupinhas de bebê em SVG,
+com estrela azul e coração rosa.
+A conexão da parcial e o WhatsApp foram preservados.
+Atualize enviando a pasta public inteira ao mesmo repositório.
