@@ -29,7 +29,7 @@ rsvpForm.addEventListener('submit',e=>{
  const attendance=rsvpForm.querySelector('input[name="attendance"]:checked').value;
  const answer=attendance==='sim'?'Confirmo minha presença na revelação do dia 27/10/2026, às 4h30, na Orla de Atalaia — Cinelândia.':'Desta vez não poderei ir à revelação do dia 27/10/2026.';
  const message='Olá, Gessica! Sou '+name+'.\n\n'+answer+'\n\nMeu palpite é: '+(selectedVote==='menino'?'menino 💙':selectedVote==='menina'?'menina 🩷':'ainda não escolhi')+'.';
- const url='https://wa.me/5579989901959?text='+encodeURIComponent(message);
+ const url='https://wa.me/557998901959?text='+encodeURIComponent(message);
  const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.click();
  const status=document.querySelector('#rsvp-status');status.replaceChildren(document.createTextNode('Para concluir sua resposta, envie a mensagem no WhatsApp. '));
  const retry=document.createElement('a');retry.href=url;retry.target='_blank';retry.rel='noopener noreferrer';retry.textContent='Abrir WhatsApp novamente';status.append(retry);
