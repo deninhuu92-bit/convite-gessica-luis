@@ -1,0 +1,96 @@
+GESSICA & LUIS — CONVITE PARA VERCEL
+Versão de entrega: 19/10/2026
+
+COMO PUBLICAR PELO GITHUB + VERCEL
+
+1. Extraia o ZIP.
+2. Crie um repositório no GitHub e envie o CONTEÚDO da pasta
+   Gessica_Luis_Vercel. O arquivo vercel.json e a pasta public devem
+   aparecer diretamente na raiz do repositório.
+   Preserve a pasta public/assets ao enviar os arquivos.
+3. Na Vercel, escolha Add New > Project e importe o repositório.
+4. Confira as opções:
+   Framework Preset: Other
+   Root Directory: raiz do repositório (não escolha public)
+   Build Command: vazio
+   Output Directory: public
+   Install Command: vazio
+   Environment Variables: nenhuma
+   O vercel.json já declara essas configurações.
+5. Clique em Deploy. Use o endereço de produção fornecido pela Vercel.
+6. Abra o endereço em uma janela anônima e no celular para verificar
+   o acesso dos convidados e as animações.
+   Se aparecer uma exigência de login da Vercel, confira Deployment
+   Protection nas configurações do projeto para permitir os convidados.
+
+OPÇÃO PELO TERMINAL
+
+Com Node.js disponível, abra o terminal dentro da pasta que contém
+vercel.json e execute:
+
+  npx vercel --prod
+
+Entre na sua conta e siga as perguntas para criar o projeto.
+
+PARA CONFERIR NO COMPUTADOR ANTES DE PUBLICAR
+
+Abra public/index.html no navegador. Não há dependências para instalar.
+A confirmação abre o WhatsApp e só é concluída quando o convidado
+ENVIA a mensagem. Não basta clicar no botão.
+
+O QUE ESTÁ PRONTO
+
+- Logo G&L fornecida pelo cliente.
+- Fundo ilustrado de praia ao amanhecer e presente animado.
+- Navegação por etapas com rolagem suave.
+- Fumaça somente azul ou somente rosa conforme o palpite.
+- Palpite salvo no próprio navegador, podendo ser alterado.
+- Nome e resposta de presença enviados junto com o palpite pelo WhatsApp.
+- WhatsApp destinatário: Gessica, +55 79 98990-1959.
+- Evento: 27/10/2026, às 4h30, Orla de Atalaia — Cinelândia.
+- Aviso de pontualidade e café no restaurante Bença, consumo individual.
+- Adaptação para celular e respeito à preferência de movimento reduzido.
+
+CONTAGEM DE VOTOS
+
+Esta entrega não contém contagem compartilhada nem banco de dados.
+Os nomes e respostas não são armazenados por um servidor do convite.
+A lista de respostas fica nas mensagens que os convidados enviarem
+para Gessica. O palpite local serve apenas para lembrar a escolha
+naquele navegador.
+
+PARA EDITAR
+
+Textos e estrutura: public/index.html
+Cores e aparência: public/assets/styles.css
+Interações e WhatsApp: public/assets/app.js
+Logo: public/assets/gessica-luis-monograma.png
+
+Após alterações no GitHub, a integração da Vercel pode gerar uma
+nova publicação automaticamente.
+
+CARTA EM PDF
+
+O PDF não está incluído nesta entrega. Depois de definir o endereço
+público definitivo, ele poderá ser colocado no botão e no QR Code
+da carta de convite. Não use o link privado de revisão para enviar
+aos convidados.
+
+PLANO DA VERCEL
+
+O plano Hobby destina-se a uso pessoal e não comercial. Se houver
+cobrança pelo desenvolvimento ou hospedagem, confira o plano adequado
+nos termos da Vercel antes de publicar.
+
+VERIFICAÇÃO DESTA ENTREGA
+
+Sintaxe JavaScript, estrutura, referências dos arquivos e configuração
+JSON verificadas. O fluxo de confirmação foi validado com simulação.
+A publicação na sua conta e a conferência visual no navegador devem
+ser feitas após o envio.
+
+DOCUMENTAÇÃO OFICIAL
+https://vercel.com/docs/builds/configure-a-build
+https://vercel.com/docs/project-configuration/vercel-json
+https://vercel.com/docs/cli/deploy
+https://vercel.com/docs/limits/fair-use-guidelines
