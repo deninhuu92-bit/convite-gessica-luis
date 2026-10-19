@@ -53,11 +53,26 @@ O QUE ESTÁ PRONTO
 
 CONTAGEM DE VOTOS
 
-Esta entrega não contém contagem compartilhada nem banco de dados.
-Os nomes e respostas não são armazenados por um servidor do convite.
-A lista de respostas fica nas mensagens que os convidados enviarem
-para Gessica. O palpite local serve apenas para lembrar a escolha
-naquele navegador.
+Esta versão conecta a parcial ao projeto Supabase já configurado.
+Tabela: public.convite_gl_palpites
+Funções: convite_gl_votar e convite_gl_parcial
+
+A chave incluída em public/assets/votos.js é a chave PUBLICÁVEL,
+adequada ao navegador. Não há senha, service_role ou chave secreta.
+
+A parcial aparece abaixo do palpite com totais e porcentagens,
+consultando novos resultados a cada 30 segundos enquanto a etapa
+estiver visível. O botão de tentar novamente aparece se houver erro.
+
+O navegador guarda um identificador aleatório. Trocar o palpite
+atualiza o mesmo registro, sem acrescentar outro voto nesse navegador.
+Limpar os dados ou usar outro navegador pode permitir outro voto;
+não é uma verificação da identidade da pessoa.
+
+O nome e a presença continuam somente na mensagem do WhatsApp.
+A contagem registra a escolha no site, mesmo se a mensagem não for enviada.
+Palpites antigos feitos antes desta atualização precisam ser tocados
+novamente para entrar na parcial.
 
 PARA EDITAR
 
@@ -109,3 +124,14 @@ Para atualizar o site já publicado:
 6. Atualize a página no celular. A logo e o CSS usam nova versão de cache.
 
 A carta PDF não depende desta atualização para abrir o convite.
+
+ATUALIZAÇÃO DA PARCIAL
+
+Envie a pasta public inteira desta versão para os mesmos caminhos
+no repositório convite-gessica-luis. Clique em Commit changes e aguarde
+a Vercel publicar. Não precisa configurar variáveis de ambiente.
+Não execute novamente o SQL: a tabela e as funções já foram criadas.
+
+Verificação: conexão de leitura real com Supabase confirmada. Não foram
+criados votos de teste na parcial. Após publicar, faça seu primeiro
+palpite e abra o convite em outro aparelho para conferir o mesmo total.
