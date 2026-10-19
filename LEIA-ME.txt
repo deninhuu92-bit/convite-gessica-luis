@@ -171,3 +171,6 @@ O PDF não precisa de atualização: ele continua abrindo o mesmo site.
 
 SOM AUTOMÁTICO
 O som tenta iniciar ao carregar a página. Se o navegador bloquear a reprodução automática com áudio, começa no primeiro clique ou toque no convite. A escolha de pausar continua sendo respeitada.
+
+PAISAGEM MAIS VISÍVEL
+Camadas claras das etapas reduzidas e desfoque removido para realçar o sol, o mar e a areia. Céu e oceano com cores um pouco mais presentes, mantendo suavidade e proteção da leitura no centro.
