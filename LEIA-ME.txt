@@ -174,3 +174,6 @@ O som tenta iniciar ao carregar a página. Se o navegador bloquear a reproduçã
 
 PAISAGEM MAIS VISÍVEL
 Camadas claras das etapas reduzidas e desfoque removido para realçar o sol, o mar e a areia. Céu e oceano com cores um pouco mais presentes, mantendo suavidade e proteção da leitura no centro.
+
+MAR MAIS NATURAL
+Removidas as linhas brancas repetidas do mar e do reflexo. Reflexo solar agora difuso, com transição suave de cores na água e espuma discreta na areia.
